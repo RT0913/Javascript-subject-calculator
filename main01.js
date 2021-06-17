@@ -6,7 +6,7 @@ let status = 1;
 function btnNumber(myData){
     status = 0;
     input += myData;
-    document.subjectCalculator.output.value = input;
+    document.subjectCalculator.output.value = Number(input);　//Number()を加えて修正
 }
 
 function btnOperation(myData){
